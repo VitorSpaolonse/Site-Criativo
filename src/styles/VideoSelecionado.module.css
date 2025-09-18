@@ -1,0 +1,51 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding: 32px 48px;
+  background-color: #181818;
+  color: white;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Área principal do vídeo */
+.VideoPlayer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.VideoPlayer img {
+  width: 800px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #222;
+}
+
+.VideoPlayer h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.VideoPlayer p {
+  font-size: 15px;
+  margin: 0;
+  color: #aaa;
+}
+
+.VideoPlayer p:nth-of-type(2) {
+  color: #ddd;
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+.VideoPlayer p:last-of-type {
+  margin-top: 1px;
+  color: #ccc;
+  font-size: 15px;
+}
